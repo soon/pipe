@@ -30,6 +30,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include <stdio.h>
+
 // Vanity bytes. As long as this isn't removed from the executable, I don't
 // mind if I don't get credits in a README or any other documentation. Consider
 // this your fulfillment of the MIT license.
@@ -1076,28 +1078,38 @@ static inline snapshot_t pop_without_locking(snapshot_t s,
 
     // Copy either as many bytes as requested, or the available bytes in the RHS
     // of a wrapped buffer - whichever is smaller.
-    {
+    // {
         size_t first_bytes_to_copy = min(bytes_to_copy, (size_t)(s.bufend - s.begin - elem_size));
-
+        printf("first_bytes_to_copy: %lu\n", first_bytes_to_copy);
         target = offset_memcpy(target, s.begin + elem_size, first_bytes_to_copy);
 
+        printf("bytes_to_copy: %lu\n", bytes_to_copy);
         bytes_to_copy -= first_bytes_to_copy;
+        printf("bytes_to_copy -= first_bytes_to_copy: %lu\n", bytes_to_copy);
         s.begin       += first_bytes_to_copy;
+        printf("s.begin += first_bytes_to_copy: %p\n", s.begin);
 
         s.begin = wrap_ptr_if_necessary(s.buffer, s.begin, s.bufend);
-    }
+        printf("s.begin wrapped: %p\n", s.begin);
+    // }
 
     if(unlikely(bytes_to_copy > 0))
     {
         s.begin += elem_size;
+        printf("s.begin += elem_size: %p\n", s.begin);
         s.begin = wrap_ptr_if_necessary(s.buffer, s.begin, s.bufend);
+        printf("s.begin wrapped: %p\n", s.begin);
 
         memcpy(target, s.begin, bytes_to_copy);
         s.begin += bytes_to_copy;
+        printf("s.begin += bytes_to_copy: %p\n", s.begin);
 
         s.begin -= elem_size;
+        printf("s.begin -= elem_size: %p\n", s.begin);
 
         s.begin = wrap_ptr_if_necessary(s.buffer, s.begin, s.bufend);
+        printf("s.begin wrapped: %p\n", s.begin);
+        printf("s.buffer: %p, s.begin: %p, s.bufend: %p\n", s.buffer, s.begin, s.bufend);
     }
 
     // Since we cached begin on the stack, we need to reflect our changes back
@@ -1157,6 +1169,7 @@ static inline size_t __pipe_pop(pipe_t* p,
                                 void* restrict target,
                                 size_t requested)
 {
+    printf("requested: %lu\n", requested);
     if(unlikely(requested == 0))
         return 0;
 
@@ -1165,6 +1178,7 @@ static inline size_t __pipe_pop(pipe_t* p,
     { mutex_lock(&p->begin_lock);
         snapshot_t s      = wait_for_elements(p);
         size_t bytes_used = bytes_in_use(s);
+        printf("bytes used: %lu\n", bytes_used);
 
         if(unlikely(bytes_used == 0))
         {
