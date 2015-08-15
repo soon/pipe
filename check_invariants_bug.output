@@ -1,0 +1,331 @@
+sizeof(Foo): 12
+requested: 12
+bytes used: 264
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac32c
+s.begin wrapped: 0x20ac32c
+requested: 12
+bytes used: 252
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac338
+s.begin wrapped: 0x20ac338
+requested: 12
+bytes used: 240
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac344
+s.begin wrapped: 0x20ac344
+requested: 12
+bytes used: 228
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac350
+s.begin wrapped: 0x20ac350
+requested: 12
+bytes used: 216
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac35c
+s.begin wrapped: 0x20ac35c
+requested: 12
+bytes used: 204
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac368
+s.begin wrapped: 0x20ac368
+requested: 12
+bytes used: 192
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac374
+s.begin wrapped: 0x20ac374
+requested: 12
+bytes used: 180
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac380
+s.begin wrapped: 0x20ac380
+requested: 12
+bytes used: 168
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac38c
+s.begin wrapped: 0x20ac38c
+requested: 12
+bytes used: 156
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac398
+s.begin wrapped: 0x20ac398
+requested: 12
+bytes used: 144
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac3a4
+s.begin wrapped: 0x20ac3a4
+requested: 12
+bytes used: 132
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac3b0
+s.begin wrapped: 0x20ac3b0
+requested: 12
+bytes used: 120
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac3bc
+s.begin wrapped: 0x20ac3bc
+requested: 12
+bytes used: 108
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac3c8
+s.begin wrapped: 0x20ac3c8
+requested: 12
+bytes used: 96
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac3d4
+s.begin wrapped: 0x20ac3d4
+requested: 12
+bytes used: 84
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac3e0
+s.begin wrapped: 0x20ac3e0
+requested: 12
+bytes used: 72
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac3ec
+s.begin wrapped: 0x20ac3ec
+requested: 12
+bytes used: 60
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac3f8
+s.begin wrapped: 0x20ac3f8
+requested: 12
+bytes used: 48
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac404
+s.begin wrapped: 0x20ac404
+requested: 12
+bytes used: 36
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac410
+s.begin wrapped: 0x20ac410
+requested: 12
+bytes used: 24
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac41c
+s.begin wrapped: 0x20ac41c
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac428
+s.begin wrapped: 0x20ac428
+i: 0
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac434
+s.begin wrapped: 0x20ac434
+i: 1
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac440
+s.begin wrapped: 0x20ac440
+i: 2
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac44c
+s.begin wrapped: 0x20ac44c
+i: 3
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac458
+s.begin wrapped: 0x20ac458
+i: 4
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac464
+s.begin wrapped: 0x20ac464
+i: 5
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac470
+s.begin wrapped: 0x20ac470
+i: 6
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac47c
+s.begin wrapped: 0x20ac47c
+i: 7
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac488
+s.begin wrapped: 0x20ac488
+i: 8
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac494
+s.begin wrapped: 0x20ac494
+i: 9
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac4a0
+s.begin wrapped: 0x20ac4a0
+i: 10
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac4ac
+s.begin wrapped: 0x20ac4ac
+i: 11
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac4b8
+s.begin wrapped: 0x20ac4b8
+i: 12
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac4c4
+s.begin wrapped: 0x20ac4c4
+i: 13
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac4d0
+s.begin wrapped: 0x20ac4d0
+i: 14
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac4dc
+s.begin wrapped: 0x20ac4dc
+i: 15
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac4e8
+s.begin wrapped: 0x20ac4e8
+i: 16
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac4f4
+s.begin wrapped: 0x20ac4f4
+i: 17
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac500
+s.begin wrapped: 0x20ac500
+i: 18
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac50c
+s.begin wrapped: 0x20ac50c
+i: 19
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 12
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 0
+s.begin += first_bytes_to_copy: 0x20ac518
+s.begin wrapped: 0x20ac518
+i: 20
+requested: 12
+bytes used: 12
+first_bytes_to_copy: 8
+bytes_to_copy: 12
+bytes_to_copy -= first_bytes_to_copy: 4
+s.begin += first_bytes_to_copy: 0x20ac520
+s.begin wrapped: 0x20ac520
+s.begin += elem_size: 0x20ac52c
+s.begin wrapped: 0x20ac320
+s.begin += bytes_to_copy: 0x20ac324
+s.begin -= elem_size: 0x20ac318
+s.begin wrapped: 0x20ac318
+s.buffer: 0x20ac320, s.begin: 0x20ac318, s.bufend: 0x20ac52c
+pipe_debug: pipe.c:496: check_invariants: Assertion `((s.begin) >= (s.buffer) && (s.begin) <= (s.bufend))' failed.
+[1]    12948 abort (core dumped)  ./pipe_debug > check_invariants_bug.output
